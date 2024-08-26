@@ -8,9 +8,9 @@ local lib,previous = _G.LibStub:NewLibrary(MAJOR, MINOR)
 if not lib then return end
 local pp=print
 --@debug@
-LoadAddOn("Blizzard_DebugTools")
-LoadAddOn("LibDebug")
-if LibDebug then LibDebug() end
+-- LoadAddOn("Blizzard_DebugTools")
+-- LoadAddOn("LibDebug")
+-- if LibDebug then LibDebug() end
 --@end-debug@
 --[===[@non-debug@
 local print=function() end
